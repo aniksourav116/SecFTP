@@ -1,5 +1,6 @@
 [versions]
 agp = "8.9.2"
+commonsNet = "3.8.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -11,6 +12,7 @@ kotlin = "2.1.20"
 coreKtx = "1.16.0"
 
 [libraries]
+commons-net = { module = "commons-net:commons-net", version.ref = "commonsNet" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
